@@ -1,0 +1,234 @@
+@charset 'utf-8';
+/*
+  Theme Name: Insurance-Ancora Child
+  Theme URI: http://insurance.ancorathemes.com/
+  Description: Insurance-Ancora - Multipurpose and Multiskin Responsive Wordpress theme
+  Author: AncoraThemes
+  Author URI: http://ancorathemes.com/
+  Template: insurance-ancora
+  Version: 1.0
+  Tags: light, responsive-layout, flexible-header, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+  Text Domain:  insurance-ancora
+*/
+
+@import url("../insurance-ancora/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.eot');
+    src: url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Regular.woff2') format('woff2'),
+        url('fonts/Poppins-Regular.woff') format('woff'),
+        url('fonts/Poppins-Regular.ttf') format('truetype'),
+        url('fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+	font-family: 'Poppins';
+}
+/* .contact_field.contact_phone {
+    display: flex;
+    align-items: center;
+} */
+
+.about-brdr-bx .column-1_4 {
+    border: 2px solid #f59c3c;
+    margin: 0 10px;
+    padding: 0 20px 20px;
+    width: 23%;
+	    margin-bottom: 30px !important;
+}
+
+
+span.header_social ul {
+    /* display: flex; */
+    /* padding-left: 15px; */
+    padding-top: 10px;
+}
+.contact_field.contact_phone {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* 
+span.header_social ul li:not(:last-child) {
+    margin-right: 15px;
+} */
+span.header_social ul li {
+    margin-bottom: 2px;
+	display: inline;
+	margin-right: 10px;
+}
+span.contact_icon.icon-phone-1 {
+    margin: 0;
+    align-self: center;
+}
+
+.top_panel_middle .logo {
+    margin-top: 3em !important;
+}
+
+
+.contact_field.contact_phone {
+    align-items: center;
+}
+
+
+
+span.contact_label.contact_phone a {
+    color: #019bc6;
+    margin-right: 15px;
+}
+
+span.contact_icon.icon-phone-1 {
+    margin: 0 !important;
+    padding-right: 10px;
+    font-size: 19px;
+}
+footer.footer_wrap.widget_area.scheme_original h6.widget_title {
+    margin: 0;
+   padding: 0px 0px 20px 0px;
+    background: none;
+    box-shadow: none;
+    font-size: 20px;
+    color: #bfbfbf;
+/*     font-weight: 600; */
+}
+.mobile-view{
+	display:none !important;
+}
+.scheme_original .top_panel_title_inner .post_navi .post_navi_item a, .scheme_original .top_panel_title_inner .breadcrumbs a.breadcrumbs_item {
+    color: #fff !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background: #F59C3C !important;
+}
+
+
+/* header.top_panel_wrap.top_panel_style_1.scheme_original .column-3_5.contact_field_wrapper {
+   
+    padding-top: 35px;
+} */
+h2.vc_custom_heading.vc_custom_1633350509449 {
+    line-height: 1;
+}
+
+.banner-section {
+    margin-top: -72px;
+}
+span.header_social {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+/* new css */
+
+.vc_column-inner.vc_custom_1607431534815 {
+    margin: 0 !important;
+}
+.mapouter {
+   
+    height: 100% !important;
+    width: 100% !important;
+	position:relative;text-align:right;
+}
+.gmap_canvas {
+	margin-top:50px;
+   overflow:hidden;background:none!important;
+    height: 100% !important;
+  
+    width: 100% !important;
+}
+aside#text-5 {
+    width: 30%;
+}
+aside#nav_menu-2 {
+    width: 16%;
+}
+aside#custom_html-2 {
+    width: 25%;
+}
+aside#custom_html-3 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 20px;
+    width: 26%;
+    padding-right: 0;
+}
+iframe{
+	width: 100% !important;
+}
+
+@media(max-width:1199px){
+	
+	
+	.about-brdr-bx .column-1_4 {
+  
+    width: 46% !important;
+}
+	
+	
+	.banner-description-text, .banner-top-heading {
+    position: relative;
+    left: 50px;
+}
+	
+	.slider_over_content.scheme_dark .quote_slider {
+    position: relative;
+    top: 60px;
+}
+	
+	
+	
+}
+
+@media(max-width: 991px){
+	
+	.banner-description-text{
+		font-size:8px !important;
+	}
+/* 	new css */
+	aside#custom_html-3 {
+    margin-top: 50px;
+	width:100%;
+	font-size:16px;
+}
+aside#custom_html-3,aside#text-5,aside#nav_menu-2,aside#custom_html-2 {
+    width: 50%
+}
+
+	
+#copy-menu {
+    text-align: center !important;
+    margin-top:  0px !important;
+    float: none !important;
+}
+	.banner-description-text, .banner-top-heading {
+  
+    left: 10px;
+}
+	
+	
+}
+
+@media(max-width: 767px){
+	
+    .about-brdr-bx .column-1_4 {
+  
+    width: 100% !important;
+}
+	aside#custom_html-3,aside#text-5,aside#nav_menu-2,aside#custom_html-2 {
+    width: 100%
+}
+}
+
+
+

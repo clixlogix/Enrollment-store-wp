@@ -1,0 +1,56 @@
+Version 1.5.1
+    Added:
+       - Compatibility with WP 5.3.2
+       - Compatibility with PHP 7.3.3
+       - Compatibility with WPZOOM Instagram Widget
+       - Compatibility with ThemeREX Updater
+       - Service Plus page
+
+    Fixed:
+       - Update scripts libraries
+       - Update plugins to their latest versions
+       - Improve theme styles
+
+    Changed:
+       - Update demo data
+
+
+Version 1.5
+    Added:
+        - Compatibility with WP 4.9.8
+        - WP GDPR Compliance plugin
+        - Contact Form 7
+        - Alert to Demo data installation
+        - Privacy Policy page
+
+    Fixed:
+        - Compatibility with Gutenberg and other PageBuilders
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Import Essential Grid
+
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Move Importer to ThemeREX Utils plugin
+        - Update demo data
+
+
+Version 1.4
+    PHP 7 compatibility.
+    Plugins updated.
+
+
+Version 1.3
+    Fixed some css issue
+    Plugins updated.
+
+
+Version 1.2
+    Plugins updated.
+
+
+Version 1.1
+    Fixed an importer issue
+
+
+Version 1.0
